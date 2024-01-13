@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc --build --force",
-    "singleton": "yarn build && node ./singleton/singleton.js"
+    "singleton": "yarn build && node ./examples/singleton/singleton.js",
+    "factory": "yarn build && node ./examples/factory/factory.js"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
