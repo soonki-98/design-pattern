@@ -1,0 +1,13 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build --force",
+    "singleton": "yarn build && node ./singleton/singleton.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
